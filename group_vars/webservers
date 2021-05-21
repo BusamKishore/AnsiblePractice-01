@@ -5,6 +5,5 @@ mywebpackageforredhat: httpd
 myjavapackageforubuntu: openjdk-8-jre
 myjavapackageforredhat: java-1.8.0-openjdk
 
-mydotnetpackageforubuntu: dotnet-sdk-5.0
-mydotnetpackageforredhat: rh-dotnet50 -y
+
 
