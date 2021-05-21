@@ -1,7 +1,7 @@
 ---
 - hosts: webservers
   become: yes
-  task:
+  tasks:
   - name: Install java on ubuntu node
     apt:
       name: "{{myjavapackaforubuntu}}"
