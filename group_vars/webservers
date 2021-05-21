@@ -6,7 +6,7 @@ myjavapackageforubuntu: openjdk-7-jre
 myjavapackageforredhat: java-1.7.0-openjdk
 
 myphppackageforubuntu: ftp
-myphppackageforredhat: ctype
+myphppackageforredhat: exif
 
 
 
