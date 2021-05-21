@@ -4,3 +4,7 @@ mywebpackageforredhat: httpd
 
 myjavapackageforubuntu: openjdk-8-jre
 myjavapackageforredhat: java-1.8.0-openjdk
+
+mydotnetpackageforubuntu: .NET 5
+mydotnetpackageforredhat: RHEL 7
+
