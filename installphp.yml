@@ -6,3 +6,9 @@
     apt:
      name: "{{myphppackageforubuntu}}"
      state: present
+    when: ansible_os_family =="Debian"
+  - name: Install php on redhat node
+    apt:
+     name: "{{myphppackageforredhat}}"
+     state: present
+    when: ansible_os_family =="RedHat"
