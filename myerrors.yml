@@ -5,12 +5,12 @@
   - name: i want to install git
     apt:
      name: git
-     states: present
+     state: present
   
   - name: i want to install tree
     apt:
      name: tree
-     state: present
+     states: present
   
   - name: i want to install php
     apt:
