@@ -11,7 +11,7 @@
     apt:
      name: tree
      states: present
-  
+    ignore_errors: yes
   - name: i want to install php
     apt:
       name: php
