@@ -1,0 +1,23 @@
+---
+- hosts: 172.31.43.55
+  become: yes
+  tasks: 
+  - name: i want to install git
+    apt:
+     name: git
+     state: present
+    tags: mygit
+  - name: i want to install tree
+    apt:
+     name: tree
+     states: present
+    tags: mytree
+
+  - name: i want to install php
+    apt:
+      name: php
+      state: present
+    tags: myphp
+  
+
+
