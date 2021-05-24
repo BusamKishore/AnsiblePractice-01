@@ -1,4 +1,0 @@
-- name: i want to create file on ubuntu node only
-  file:
-    path: /home/ubuntu/test.txt
-    state: file
