@@ -1,4 +1,4 @@
 - name: i want to create file on ubuntu side
   file:
-   path: /home/ubuntu/test.txt
-   state: file
+    path: /home/ubuntu/test.txt
+    state: file
