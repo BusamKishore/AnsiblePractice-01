@@ -16,3 +16,9 @@
     template:
       src: myindex.j2
       dest: /var/www/html/index.html
+  handlers:
+  - name: start webserver
+    service: 
+      name: apache2
+      status: started 
+  
