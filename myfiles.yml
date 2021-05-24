@@ -11,3 +11,8 @@
     service:
       name: apache2
       state: started
+
+  - nmae: i want to copy myindex.j2 into node side
+    template:
+      src: myindex.j2
+      dest: /var/www/index.html
