@@ -1,9 +1,0 @@
----
-- hosts: 172.31.43.55
-  become: yes
-  tasks:
-  - nmae: i want to install webserver on ubuntu
-    apt:
-     name: apache2
-     state: present
-
