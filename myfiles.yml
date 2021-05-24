@@ -7,3 +7,7 @@
     apt:
      name: apache2
      state: present
+  - name: i want to server on ubuntu node
+    service:
+      name: apache2
+      state: started
